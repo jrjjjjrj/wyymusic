@@ -1,1 +1,0 @@
-import{n as e}from"./WrapperContainer-C3zAoxTa.js";var t=()=>e.get(`/personalized`,{params:{limit:5}}),n=t=>e.get(`/playlist/detail`,{params:{id:t}}),r=t=>e.get(`/playlist/track/all`,{params:{id:t,limit:15}});export{n,t as r,r as t};
