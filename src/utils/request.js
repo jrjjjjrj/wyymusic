@@ -1,10 +1,11 @@
 import router from '@/router'
 import { useUserStore } from '@/stores'
 import axios from 'axios'
-import { ElMessage } from 'element-plus'
+// import { ElMessage } from 'element-plus'
 
 // ！！！关键修改：换成你本地启动的网易云 API 地址
-const baseURL = 'http://localhost:3000'
+const baseURL = 'https://netease-cloud-music-api-backup-three-rho.vercel.app/'
+// const baseURL = 'http://localhost:3000'
 
 const instance = axios.create({
   baseURL,
