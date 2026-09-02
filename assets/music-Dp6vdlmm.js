@@ -1,0 +1,1 @@
+import{n as e}from"./WrapperContainer-C3zAoxTa.js";var t=t=>e.get(`/song/detail`,{params:{ids:t}}),n=t=>e.get(`/lyric/new`,{params:{id:t}}),r=t=>e.get(`/song/url`,{params:{id:t}}),i=()=>e.post(`/personalized/newsong`,null,{params:{limit:12}}),a=t=>e.get(`/cloudsearch`,{params:{keywords:t}});export{i as a,n as i,t as n,r,a as t};
