@@ -10,8 +10,7 @@ const baseURL = 'https://netease-cloud-music-api-backup-three-rho.vercel.app/'
 const instance = axios.create({
   baseURL,
   timeout: 10000,
-  // 网易云接口默认需要携带 cookies，加上这个可以让浏览器自动管理
-  withCredentials: true,
+  withCredentials: false,
 })
 
 // 请求拦截器
